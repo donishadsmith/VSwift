@@ -14,7 +14,15 @@ All notable future changes to vswift will be documented in this file.
 noted in the changelog (i.e new functions or parameters, changes in parameter defaults or function names, etc).
 - *.patch* : Contains no new features, simply fixes any identified bugs.
 
-## [0.5.0.9000] - 2025-02-14
+## [0.5.0.9001] - 2025-02-14
+### ♻ Changed
+- In the `classCV` output and printed output, changed instances of "data" to "observations" for variables related to
+missing cases.
+### 🐛 Fixes
+- For interpolation, remove observations with all features missing.
+- Fix issue character to factor conversion issue in curve functions
+
+## [0.5.0.9001] - 2025-02-14
 ### 🚀 New/Added
 - Add new function - `prCurve`.
 
